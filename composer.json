@@ -1,11 +1,16 @@
 {
-    "name": "sonata-project/timeline-bundle",
+    "name": "rmzamora/timeline-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony SonataTimelineBundle ~ integrate SpyTimelineBundle into Sonata",
-    "keywords": ["sonata", "date", "time", "wall"],
+    "description": "Symfony SonataTimelineBundle ~ integrate SpyTimelineBundle into Sonata rmzamora forked",
+    "keywords": ["sonata", "date", "time", "wall", "rmzamora forked"],
     "homepage": "http://sonata-project.org/bundles/timeline",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Mell M. Zamora",
+            "email": "me@mellzamora.com",
+            "homepage": "http://mellzamora.com"
+        },
         {
             "name": "Thomas Rabaix",
             "email": "thomas.rabaix@sonata-project.org"
@@ -26,7 +31,7 @@
     "target-dir": "Sonata/TimelineBundle",
     "extra": {
         "branch-alias": {
-            "dev-master": "2.2.x-dev"
+            "dev-master": "2.3.x-dev"
         }
     }
 }
