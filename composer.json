@@ -23,14 +23,14 @@
     "require": {
         "stephpy/timeline-bundle": "~2.0",
         "sonata-project/core-bundle": "~2.2",
-        "rmzamora/block-bundle": "~2.3"
+        "rmzamora/block-bundle": "2.4.*"
     },
     "autoload": {
         "psr-4": { "Sonata\\TimelineBundle\\": "" }
     },
     "extra": {
         "branch-alias": {
-            "dev-2.3": "2.3.x-dev"
+            "dev-2.4": "2.4.x-dev"
         }
     }
 }
