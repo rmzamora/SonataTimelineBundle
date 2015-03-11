@@ -22,15 +22,15 @@
     ],
     "require": {
         "stephpy/timeline-bundle": "~2.0",
-        "rmzamora/core-bundle": "~2.4",
-        "rmzamora/block-bundle": "~2.3"
+        "rmzamora/core-bundle": "2.5.*",
+        "rmzamora/block-bundle": "2.5.*"
     },
     "autoload": {
         "psr-4": { "Sonata\\TimelineBundle\\": "" }
     },
     "extra": {
         "branch-alias": {
-            "dev-2.4": "2.4.x-dev"
+            "dev-master": "2.5.x-dev"
         }
     }
 }
