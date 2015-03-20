@@ -23,7 +23,8 @@
     "require": {
         "stephpy/timeline-bundle": "~2.0",
         "sonata-project/core-bundle": "~2.2",
-        "rmzamora/block-bundle": "2.4.*"
+        "rmzamora/block-bundle": "2.4.*",
+        "sonata-project/intl-bundle": "~2.1"
     },
     "autoload": {
         "psr-4": { "Sonata\\TimelineBundle\\": "" }
