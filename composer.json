@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Symfony SonataTimelineBundle ~ integrate SpyTimelineBundle into Sonata rmzamora forked",
     "keywords": ["sonata", "date", "time", "wall", "rmzamora forked"],
-    "homepage": "http://sonata-project.org/bundles/timeline",
+    "homepage": "https://sonata-project.org/bundles/timeline",
     "license": "MIT",
     "authors": [
         {
