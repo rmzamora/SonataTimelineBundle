@@ -23,8 +23,8 @@
     "require": {
         "stephpy/timeline-bundle": "~2.0",
         "sonata-project/core-bundle": "~2.2",
-        "rmzamora/block-bundle": "2.4.*",
-        "sonata-project/intl-bundle": "~2.1"
+        "sonata-project/intl-bundle": "~2.1",
+        "rmzamora/block-bundle": "2.4.1.*"
     },
     "require-dev": {
         "fabpot/php-cs-fixer": "~0.1|~1.0"
@@ -34,7 +34,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-2.4": "2.4.x-dev"
+            "dev-2.4.1": "2.4.1.x-dev"
         }
     }
 }
