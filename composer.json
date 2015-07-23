@@ -23,7 +23,7 @@
     "require": {
         "stephpy/timeline-bundle": "~2.0",
         "sonata-project/core-bundle": "~2.2",
-        "rmzamora/block-bundle": "2.4.*",
+        "rmzamora/block-bundle": "2.4.2.*",
         "sonata-project/intl-bundle": "~2.1"
     },
     "require-dev": {
@@ -34,7 +34,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-2.4": "2.4.x-dev"
+            "dev-2.4.2": "2.4.2.x-dev"
         }
     }
 }
