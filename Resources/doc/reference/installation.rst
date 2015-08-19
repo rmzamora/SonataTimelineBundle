@@ -1,7 +1,7 @@
 Installation
 ============
 
-* Add SonataNewsBundle to your vendor/bundles dir via composer
+* Add SonataTimelineBundle to your vendor/bundles dir via composer
 
 .. code-block:: json
 
@@ -13,7 +13,7 @@ Installation
     }
 
 
-* Add SonataNewsBundle to your application kernel:
+* Add SonataTimelineBundle and SpyTimelineBundle to your AppKernel:
 
 .. code-block:: php
 
@@ -92,6 +92,12 @@ Installation
         );
     }
 
+* update your database schema:
+
+.. code-block:: bash
+
+    app/console doctrine:schema:update --force
+    
 
 * enable the block in the admin bundle:
 
@@ -113,3 +119,6 @@ Installation
                 # ... other blocks
 
                 - { position: center, type: sonata.timeline.block.timeline, settings: { context: SONATA_ADMIN, max_per_page: 25 }}
+
+                # custom title - default: "Latest Actions"
+                - { position: center, type: sonata.timeline.block.timeline, settings: { context: SONATA_ADMIN, max_per_page: 25, title: "My Timeline Block" }}
