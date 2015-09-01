@@ -21,7 +21,7 @@
         }
     ],
     "require": {
-        "stephpy/timeline-bundle": "~2.0",
+        "rmzamora/stephpy-timeline-bundle": "2.6.0.*",
         "rmzamora/core-bundle": "2.5.*",
         "rmzamora/block-bundle": "2.5.*"
     },
@@ -30,7 +30,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.5.x-dev"
+            "dev-master": "2.6.0.x-dev"
         }
     }
 }
