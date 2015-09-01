@@ -21,7 +21,7 @@
         }
     ],
     "require": {
-        "rmzamora/timeline-bundle": "2.5.0.*",
+        "rmzamora/stephpy-timeline-bundle": "2.5.0.*",
         "rmzamora/core-bundle": "2.5.0.*",
         "rmzamora/block-bundle": "2.5.0.*",
         "sonata-project/intl-bundle": "~2.1"
