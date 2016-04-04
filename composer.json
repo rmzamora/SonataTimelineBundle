@@ -21,13 +21,15 @@
         }
     ],
     "require": {
+    	"symfony/doctrine-bridge": "~2.2",
+    	"doctrine/orm": "~2.2",
         "rmzamora/stephpy-timeline-bundle": "2.5.0.*",
         "rmzamora/core-bundle": "2.5.0.*",
         "rmzamora/block-bundle": "2.5.0.*",
-        "sonata-project/intl-bundle": "~2.1"
+        "sonata-project/intl-bundle": "~2.1",
+        "sonata-project/easy-extends-bundle": "~2.1"
     },
     "require-dev": {
-        "fabpot/php-cs-fixer": "~0.1|~1.0",
         "sonata-project/admin-bundle": "~2.4@dev"
     },
     "autoload": {

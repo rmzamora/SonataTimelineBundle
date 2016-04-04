@@ -73,10 +73,10 @@ To use the ``BlockBundle``, add the following lines to your application configur
         sonata_timeline:
             manager_type:         orm
             class:
-                timeline:         %spy_timeline.class.timeline%
-                action:           %spy_timeline.class.action%
-                component:        %spy_timeline.class.component%
-                action_component: %spy_timeline.class.action_component%
+                timeline:         "%spy_timeline.class.timeline%"
+                action:           "%spy_timeline.class.action%"
+                component:        "%spy_timeline.class.component%"
+                action_component: "%spy_timeline.class.action_component%"
 
 Extend the Bundle
 -----------------
@@ -86,7 +86,7 @@ generate the correct entities for the timeline:
 
 .. code-block:: bash
 
-    $ php app/console sonata:easy-extends:generate SonataTimelineBundle -dest=src
+    $ php app/console sonata:easy-extends:generate SonataTimelineBundle --dest=src
 
 If you don't specify the ``--dest`` parameter, the files are generated in ``app/Application/Sonata/...```.
 
@@ -148,6 +148,30 @@ Enable the Timeline Block
                 blocks:
                     # ...
                     - { position: center, type: sonata.timeline.block.timeline, settings: { context: SONATA_ADMIN, max_per_page: 25 }}
+
+
+Edit the Timeline Block
+-----------------------
+
+.. configuration-block::
+
+Create a new template file here, based on the default ``timeline.html.twig``
+
+.. code-block:: bash
+
+    src/Application/TimelineBundle/Resources/views/Block/timeline.html.twig
+
+And then edit the sonata_admin definition here, adding the "template" option.
+
+  .. code-block:: yaml
+
+        # app/config/config.yml
+
+        sonata_admin:
+            dashboard:
+                blocks:
+                    # ...
+                    - { position: center, type: sonata.timeline.block.timeline, settings: { template: 'ApplicationTimelineBundle::Block:timeline.html.twig', context: SONATA_ADMIN, max_per_page: 25 }}
 
 And now, you're good to go !
 
